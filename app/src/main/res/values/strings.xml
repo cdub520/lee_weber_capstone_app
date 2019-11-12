@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">capstoneFinal</string>
+    <string name="title_activity_sensor_status">sensor_status</string>
+</resources>
