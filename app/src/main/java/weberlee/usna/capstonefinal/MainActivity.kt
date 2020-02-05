@@ -244,7 +244,7 @@ class MainActivity() : AppCompatActivity(),SensorEventListener {
 
     private fun sendToBackend(JSONobj : JSONObject,msgType:String){
         val volleyQueue = Volley.newRequestQueue(this)
-        val url = "http://54.175.22.220/cgi-bin/cgipython.py"
+        val url = "http://18.233.168.51/cgi-bin/cgipython.py"
         val jsonObjReq = JsonObjectRequest(
             Request.Method.POST,
             url,
